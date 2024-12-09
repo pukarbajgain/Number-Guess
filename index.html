@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <script src="./script.js"></script>
+        <h1 class="text-center py-2.5 font-mono text-xl bg-orange-600 text-blue-50"> Welcome to the Number Guessing Game</h1>
+        <div class="container mx-auto">
+            <div class="flex justify-center items-center h-screen">
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <h2 class="text-center text-2xl font-bold text-gray-800">Guess the number between 1 and 10</h2>
+                    <div class="flex justify-center items-center mt-4">
+                        <input type="number" id="guessField" class="w-1/3 p-2 border border-gray-300 rounded-lg" placeholder="Enter Guess">
+                        <button id="guessSubmit" class="bg-blue-500 text-white p-2 rounded-lg ml-2">Submit</button>
+                    </div>
+                    <div class="mt-4">
+                        <p id="guesses"></p>
+                        <p id="lastResult"></p>
+                        <p id="lowOrHi"></p>
+                    </div>
+                </div>
+            </div>
+</html>
